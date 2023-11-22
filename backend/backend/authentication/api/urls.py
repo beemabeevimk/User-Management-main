@@ -21,7 +21,7 @@ urlpatterns = [
     path('registered_users',RegisteredUserView.as_view(), name = "registered_users"),
     path('delete/<int:id>',DeleteView.as_view(), name = "delete"),
     path('update/<int:id>', UpdateView.as_view(), name = "update"),
-    # path('logout', LogoutView.as_view(), name = "logout")
+    # path('logout', LogoutView.as_view(), name = "logout"),
     # path('image/<int:pk>/', image_url, name='image_url'),
     
 ]

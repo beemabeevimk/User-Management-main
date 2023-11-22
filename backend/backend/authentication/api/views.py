@@ -73,6 +73,7 @@ class MyTokenObtainPairView(TokenObtainPairView):
 #             "refresh_token" : refresh_token
 #         })
 
+
 class RegisterView(APIView):
     def post(self, request):
         data = request.data
